@@ -5,5 +5,7 @@ public class MulRunner {
         Mul temp  = new Mul();
 
         temp.print();
+
+        temp.print(9);
     }
 }
