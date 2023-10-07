@@ -2,10 +2,12 @@ package oop;
 
 public class MotorBikeRunner {
     public static void main(String[] args) {
-        MotorBike ducati = new MotorBike();
-        MotorBike honda = new MotorBike();
+        MotorBike car = new MotorBike();
 
-        ducati.start();
-        honda.start();
+        car.start();
+
+        car.setSpeed(100);
+
+        System.out.println(car.getSpeed());
     }
 }
