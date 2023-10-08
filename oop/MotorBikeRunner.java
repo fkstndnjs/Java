@@ -17,5 +17,6 @@ public class MotorBikeRunner {
         car.increaseSpeed(100);
 
         System.out.println(car.getSpeed());
+
     }
 }
